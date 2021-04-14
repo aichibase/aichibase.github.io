@@ -33,17 +33,17 @@
 }
 /*１枚目*/
 .slide1 {
-	background: url(../images/タイトル/top2.jpg) repeat-x center center / cover;
+	background: url(../images/title/top2.jpg) repeat-x center center / cover;
 	animation-name: slide1;		/*keyframes.cssで使う@keyframesの指定*/
 }
 /*２枚目*/
 .slide2 {
-	background: url(../images/タイトル/top3.jpg) repeat-x center center / cover;
+	background: url(../images/title/top3.jpg) repeat-x center center / cover;
 	animation-name: slide2;		/*keyframes.cssで使う@keyframesの指定*/
 }
 /*３枚目*/
 .slide3 {
-	background: url() no-repeat center center / cover;
+	background: url(../images/title/top4.jpg) no-repeat center center / cover;
 	animation-name: slide3;		/*keyframes.cssで使う@keyframesの指定*/
 }
 
