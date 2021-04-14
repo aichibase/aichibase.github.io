@@ -629,3 +629,7 @@ body.s-n #sub,body.s-n #footermenu {display: none;}
 .fr {float: none;}
 
 }
+
+@media print{
+
+}
