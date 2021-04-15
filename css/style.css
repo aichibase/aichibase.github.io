@@ -199,12 +199,45 @@ ul.icon img {
 	position: relative;overflow: hidden;
 	display: flex;
 	align-items: center;
+	background: #FFF;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
+#contents .list2 {
+	position: relative;overflow: hidden;
+	display: flex;
+	align-items: center;
 	background: #000;	/*背景色*/
 	color: #fff;		/*文字色*/
 	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
 }
+#contents .list3 {
+	position: relative;overflow: hidden;
+	display: flex;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 3%;	/*ボックス同士に空けるスペース*/
+}
+#contents .list4 {
+	position: relative;overflow: hidden;
+	display: flex;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 3%;	/*ボックス同士に空けるスペース*/
+}
 /*リンクテキストの文字色*/
 #contents .list a {
+	color: #fff;
+}
+#contents .list2 a {
+	color: #fff;
+}
+#contents .list3 a {
+	color: #fff;
+}
+#contents .list4 a {
 	color: #fff;
 }
 /*ボックス内のh4（見出し）タグ*/
@@ -212,14 +245,50 @@ ul.icon img {
 	margin-bottom: 10px;	/*下のテキストとの間に空けるスペース*/
 	font-size: 120%;		/*文字サイズ*/
 }
+#contents .list2 h4 {
+	margin-bottom: 10px;	/*下のテキストとの間に空けるスペース*/
+	font-size: 120%;		/*文字サイズ*/
+}
+#contents .list3 h4 {
+	margin-bottom: 10px;	/*下のテキストとの間に空けるスペース*/
+	font-size: 120%;		/*文字サイズ*/
+}
+#contents .list4 h4 {
+	margin-bottom: 10px;	/*下のテキストとの間に空けるスペース*/
+	font-size: 120%;		/*文字サイズ*/
+}
 /*ボックス内のp（段落）タグ*/
 #contents .list p {
+	padding: 0;		/*余白のリセット*/
+}
+#contents .list2 p {
+	padding: 0;		/*余白のリセット*/
+}
+#contents .list3 p {
+	padding: 0;		/*余白のリセット*/
+}
+#contents .list4 p {
 	padding: 0;		/*余白のリセット*/
 }
 /*ボックス内のfigure画像*/
 #contents .list figure {
 	float: left;	/*左に回り込み*/
 	width: 30%;		/*画像の幅*/
+	margin-left: 3%;
+}
+#contents .list2 figure {
+	float: left;	/*左に回り込み*/
+	width: 30%;		/*画像の幅*/
+}
+#contents .list3 figure {
+	float: left;	/*左に回り込み*/
+	width: 30%;		/*画像の幅*/
+	margin: 3%;
+}
+#contents .list4 figure {
+	float: right;	/*左に回り込み*/
+	width: 30%;		/*画像の幅*/
+	margin: 3%;
 }
 /*「class="text"」を指定したブロック。テキストブロック。*/
 #contents .list .text {
@@ -227,7 +296,21 @@ ul.icon img {
 	width: 64%;		/*幅*/
 	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
-
+#contents .list2 .text {
+	float: right;	/*右に回り込み*/
+	width: 64%;		/*幅*/
+	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
+#contents .list3 .text {
+	float: right;	/*右に回り込み*/
+	width: 64%;		/*幅*/
+	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
+#contents .list4 .text {
+	float: left;	/*右に回り込み*/
+	width: 64%;		/*幅*/
+	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
 /*btn1
 ---------------------------------------------------------------------------*/
 .btn1 a {
