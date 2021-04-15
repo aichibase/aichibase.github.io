@@ -716,3 +716,22 @@ body.s-n #sub,body.s-n #footermenu {display: none;}
 @media print{
 
 }
+
+/*画像マウスオーバー
+---------------------------------------------------------------------------*/
+.img_wrap{
+  border: 1px solid #ddd;
+  width: 300px;
+  height: 226px;
+  margin: 3% ;
+  transition-duration: 0.5s;
+}
+.img_wrap img{
+  width: 100%;
+  cursor: pointer;
+}
+.img_wrap:hover{
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+}
