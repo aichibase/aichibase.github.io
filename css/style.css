@@ -644,7 +644,7 @@ body {
 ---------------------------------------------------------------------------*/
 /*ヘッダーブロック*/
 header {
-	height: 90px;		/*ヘッダーの高さ*/
+	height: 45px;		/*ヘッダーの高さ*/
 	background: #695e4d;	/*背景色*/
 	text-align: center;
 }
@@ -721,8 +721,8 @@ body.s-n #sub,body.s-n #footermenu {display: none;}
 ---------------------------------------------------------------------------*/
 .img_wrap{
   border: 1px solid #ddd;
-  width: 30%;
-  margin: 3% ;
+  width: 20%;
+  margin: 2% 0% 2% 4% ;
   transition-duration: 0.5s;
 }
 .img_wrap img{
