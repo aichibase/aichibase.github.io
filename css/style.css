@@ -625,7 +625,25 @@ ul.icon {
 	float: left;	/*アイコンブロックを左に回り込み*/
 	margin-left: 20px;	/*左側に空けるスペース*/
 }
-
+#contents .list2 {
+	position: relative;overflow: hidden;
+	display: block;
+	align-items: center;
+	background: #000;	/*背景色*/
+	color: #fff;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
+#contents .list2 figure {
+	float: left;	/*左に回り込み*/
+	width: 40%;		/*画像の幅*/
+	margin-left: 5%;
+	margin-top: 5%;
+}	
+#contents .list2 .text {
+	float: right;	/*右に回り込み*/
+	width: 90%;		/*幅*/
+	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
 }
 
 
