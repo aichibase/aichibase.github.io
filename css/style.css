@@ -607,7 +607,7 @@ ol {
 #menubar_hdr.close,
 #menubar_hdr.open {
 	width: 50px;	/*幅*/
-	height: 50px;	/*高さ*/
+	height: 60px;	/*高さ*/
 }
 /*三本バーアイコン*/
 #menubar_hdr.close {
@@ -645,7 +645,7 @@ body {
 ---------------------------------------------------------------------------*/
 /*ヘッダーブロック*/
 header {
-	height: 45px;		/*ヘッダーの高さ*/
+	height: 50x;		/*ヘッダーの高さ*/
 	background: #695e4d;	/*背景色*/
 	text-align: center;
 }
@@ -690,7 +690,25 @@ ul.icon li {
 #contents p {
 	padding: 0px 15px 20px;	/*上、左右、下への余白*/
 }
-
+#contents .list2 {
+	position: relative;overflow: hidden;
+	display: block;
+	align-items: center;
+	background: #000;	/*背景色*/
+	color: #fff;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
+#contents .list2 figure {
+	float: left;	/*左に回り込み*/
+	width: 40%;		/*画像の幅*/
+	margin-left: 5%;
+	margin-top: 5%;
+}	
+#contents .list2 .text {
+	float: right;	/*右に回り込み*/
+	width: 90%;		/*幅*/
+	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
 /*テーブル（ta1）
 ---------------------------------------------------------------------------*/
 /*ta1設定*/
