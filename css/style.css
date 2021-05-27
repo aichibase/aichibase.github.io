@@ -453,6 +453,7 @@ footer .pr {display: block;}
 	border-top:  1px solid #ccc;
 	padding: 10px;	/*ボックス内の余白*/
 	word-break: break-all;
+	text-align: 
 }
 .ta5, .ta5 td, .ta5 th {
 	border-bottom:  1px solid #ccc;	/*テーブルの枠線の幅、線種、色*/
@@ -893,6 +894,10 @@ body.s-n #sub,body.s-n #footermenu {display: none;}
 .fr {float: none;}
 
 }
+		
+		.stext{
+			font-size:10px;
+		}
 
 @media print{
 
@@ -934,5 +939,8 @@ ul.side li {
 
 	}
 .nowrap {
-  white-space: nowrap; /* 勝手に折り返さない */
+	white-space: nowrap; /* 勝手に折り返さない */
 }
+.textright{
+	text-align: right;
+		}
