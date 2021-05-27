@@ -286,6 +286,22 @@ ul.icon img {
 	width: 30%;		/*画像の幅*/
 	margin: 3%;
 }
+#contents .list3 figure1 {
+	width: 70%;		/*画像の幅*/
+	height: 20%;
+	margin: 2% 1% 1% 1% ;
+	padding: 1% 1% 2% 1%;
+}
+#contents .list3 figure2 {
+	float: left;	/*左に回り込み*/
+	width: 24%;		/*画像の幅*/
+	margin: 1% 1% 1% 0% ;
+}
+#contents .list3 figure3 {
+	float: left;	/*左に回り込み*/
+	width: 24%;		/*画像の幅*/
+	margin: 1% 1% 1% 1% ;
+}
 #contents .list4 figure {
 	float: right;	/*左に回り込み*/
 	width: 30%;		/*画像の幅*/
@@ -422,18 +438,73 @@ footer .pr {display: block;}
 	margin: 0 0 20px;
 	background: #fff;	/*背景色*/
 }
-.ta1, .ta1 td, .ta1 th {
+.ta2, .ta2 td, .ta2 th {
 	border: 1px solid #ccc;	/*テーブルの枠線の幅、線種、色*/
 	padding: 10px;	/*ボックス内の余白*/
 	word-break: break-all;
 }
+.ta3, .ta3 td, .ta3 th {
+	border-right:  1px solid #ccc;	/*テーブルの枠線の幅、線種、色*/
+	padding: 10px;	/*ボックス内の余白*/
+	word-break: break-all;
+}
+.ta4, .ta4 td, .ta4 th {
+	border-bottom:  1px solid #ccc;	/*テーブルの枠線の幅、線種、色*/
+	border-top:  1px solid #ccc;
+	padding: 10px;	/*ボックス内の余白*/
+	word-break: break-all;
+}
+.ta5, .ta5 td, .ta5 th {
+	border-bottom:  1px solid #ccc;	/*テーブルの枠線の幅、線種、色*/
+	border-top:  1px solid #ccc;
+	border-right:  1px solid #ccc;
+	padding: 10px;	/*ボックス内の余白*/
+	word-break: break-all;
+}
+.ta6, .ta6 td, .ta6 th {
+	border-top:  1px solid #ccc;
+	padding: 10px;	/*ボックス内の余白*/
+	word-break: break-all;
+}
+.ta7, .ta7 td, .ta7 th {
+	border-bottom:  1px solid #ccc;	/*テーブルの枠線の幅、線種、色*/
+	border-top:  1px solid #ccc;
+	border-left:  1px solid #ccc;
+	padding: 10px;	/*ボックス内の余白*/
+	word-break: break-all;
+}
+.ta8, .ta8 td, .ta8 th {
+	border-top:  1px solid #ccc;
+	border-left:  1px solid #ccc;
+	padding: 10px;	/*ボックス内の余白*/
+	word-break: break-all;
+}
+.ta9, .ta9 td, .ta9 th {
+	border-bottom:  1px solid #ccc;
+	border-left:  1px solid #ccc;
+	padding: 10px;	/*ボックス内の余白*/
+	word-break: break-all;
+}
+.ta10, .ta10 td, .ta10 th {
+	border-top:  1px solid #ccc;
+	border-right:  1px solid #ccc;
+	padding: 10px;	/*ボックス内の余白*/
+	word-break: break-all;
+}
+.ta11, .ta11 td, .ta11 th {
+	border-bottom:  1px solid #ccc;
+	border-right:  1px solid #ccc;
+	padding: 10px;	/*ボックス内の余白*/
+	word-break: break-all;
+}
+
 /*左側ボックス*/
 .ta1 th {
 	width: 150px;	/*幅*/
 	text-align: center;	/*センタリング*/
 	font-weight: normal;
 }
-
+ul{list-style: none;}
 /*inputボタン
 ---------------------------------------------------------------------------*/
 #contents input[type="submit"].btn,
@@ -534,10 +605,14 @@ ol {
 .sh {display: none;}
 
 
-
+@media screen and (max-width:1150px){
+	.stext{
+		font-size:13px;
+	}
+}
 /*画面幅900px以下の設定
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
-@media screen and (max-width:950px){
+	@media screen and (max-width:950px){
 
 /*メインメニュー
 ---------------------------------------------------------------------------*/
@@ -644,9 +719,22 @@ ul.icon {
 	width: 90%;		/*幅*/
 	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
+	.stext{
+		font-size: 1vw;
+	}
+	
+	}
+
+@media screen and (max-width:800px){
+	.stext{
+		font-size: 1vw;
+	}
+	.sta{
+		text-align:right;
+		width:20%;
+
+	}
 }
-
-
 
 /*画面幅600px以下の設定
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -663,7 +751,7 @@ body {
 ---------------------------------------------------------------------------*/
 /*ヘッダーブロック*/
 header {
-	height: 50x;		/*ヘッダーの高さ*/
+	height: 50px;		/*ヘッダーの高さ*/
 	background: #695e4d;	/*背景色*/
 	text-align: center;
 }
@@ -770,4 +858,25 @@ body.s-n #sub,body.s-n #footermenu {display: none;}
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
   transform: translateY(-10px);
   transition-duration: 0.5s;
+}
+.sp2 {
+	vertical-align: -7px;
+	line-height: 0px;
+}
+
+.sp1 {
+	vertical-align: -19px;
+	line-height: 0px;
+}
+
+ul.side li {
+	display: inline;
+}
+
+.td-css13 { 
+    border-style:none; 
+
+	}
+.nowrap {
+  white-space: nowrap; /* 勝手に折り返さない */
 }
