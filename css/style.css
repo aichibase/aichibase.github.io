@@ -638,12 +638,14 @@ ol {
 	padding: 10px 15px;	/*上下、左右へのメニュー内の余白*/
 	border-bottom: 1px solid #fff;	/*下の線の幅、線種、色*/
 	color: #fff;		/*文字色*/
-}#menubar-s ul li a,#menubar_hdr3 {
+}
+		#menubar-s ul li a,#menubar_hdr3 {
 	display: block;text-decoration: none;
 	padding: 10px 15px;	/*上下、左右へのメニュー内の余白*/
 	border-bottom: 1px solid #fff;	/*下の線の幅、線種、色*/
 	color: #fff;		/*文字色*/
-}}#menubar-s ul li a,#menubar_hdr4 {
+}
+#menubar-s ul li a,#menubar_hdr4 {
 	display: block;text-decoration: none;
 	padding: 10px 15px;	/*上下、左右へのメニュー内の余白*/
 	border-bottom: 1px solid #fff;	/*下の線の幅、線種、色*/
@@ -657,9 +659,11 @@ ol {
 /*子メニューの見出しの追加。基本は上のブロックで設定しています。*/
 #menubar_hdr2 {
 	padding-left: 35px;
-}#menubar_hdr3 {
+}
+#menubar_hdr3 {
 	padding-left: 35px;
-}#menubar_hdr4 {
+}
+#menubar_hdr4 {
 	padding-left: 35px;
 }
 /*子メニューメニューブロック全体*/
@@ -676,7 +680,8 @@ ol {
 	background: rgba(0,0,0,0.5);	/*背景色*/
 	border: 1px solid #666;		/*上の線の幅、線種、色*/
 	border-bottom: none;		/*下の線のみ消す*/
-}#menubar-s4 {
+}
+#menubar-s4 {
 	display: block;
 	margin-top: 10px;
 	background: rgba(0,0,0,0.5);	/*背景色*/
