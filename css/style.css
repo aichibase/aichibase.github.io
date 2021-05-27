@@ -23,7 +23,7 @@ body {
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form,select,textarea,input {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
 ul {list-style-type: none;}
 img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
-table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
+table {border-collapse:collapse;font-size: 100%;border-spacing: 0;width=100%;}
 video {max-width: 100%;}
 iframe {width: 100%;}
 
@@ -490,12 +490,14 @@ footer .pr {display: block;}
 	border-right:  1px solid #ccc;
 	padding: 10px;	/*ボックス内の余白*/
 	word-break: break-all;
+	width:90%
 }
 .ta11, .ta11 td, .ta11 th {
 	border-bottom:  1px solid #ccc;
 	border-right:  1px solid #ccc;
 	padding: 10px;	/*ボックス内の余白*/
 	word-break: break-all;
+	width:90%
 }
 
 /*左側ボックス*/
@@ -720,14 +722,14 @@ ul.icon {
 	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
 	.stext{
-		font-size: 1vw;
+		font-size: 13px;
 	}
 	
 	}
 
 @media screen and (max-width:800px){
 	.stext{
-		font-size: 1vw;
+		font-size: 13px;
 	}
 	.sta{
 		text-align:right;
