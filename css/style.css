@@ -944,3 +944,10 @@ ul.side li {
 .textright{
 	text-align: right;
 		}
+.keiei ol{
+	list-style-type: decimal;
+	background: #FFFFFF;
+	margin-bottom:5%;
+	padding-bottom:1%;
+	text-align: left;
+}
