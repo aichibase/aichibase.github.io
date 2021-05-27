@@ -23,7 +23,7 @@ body {
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form,select,textarea,input {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
 ul {list-style-type: none;}
 img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
-table {border-collapse:collapse;font-size: 100%;border-spacing: 0;width=100%;}
+table {border-collapse:collapse;font-size: 100%;border-spacing: 0;width:100%;}
 video {max-width: 100%;}
 iframe {width: 100%;}
 
@@ -86,7 +86,7 @@ header #logo img {
 }
 
 /*小さい端末用メニューを非表示にする*/
-#menubar-s,#menubar-s2 {display: none;}
+#menubar-s,#menubar-s2,#menubar-s3,#menubar-s4 {display: none;}
 /*３本バーアイコンを表示させない*/
 #menubar_hdr {display: none;}
 
@@ -638,6 +638,16 @@ ol {
 	padding: 10px 15px;	/*上下、左右へのメニュー内の余白*/
 	border-bottom: 1px solid #fff;	/*下の線の幅、線種、色*/
 	color: #fff;		/*文字色*/
+}#menubar-s ul li a,#menubar_hdr3 {
+	display: block;text-decoration: none;
+	padding: 10px 15px;	/*上下、左右へのメニュー内の余白*/
+	border-bottom: 1px solid #fff;	/*下の線の幅、線種、色*/
+	color: #fff;		/*文字色*/
+}}#menubar-s ul li a,#menubar_hdr4 {
+	display: block;text-decoration: none;
+	padding: 10px 15px;	/*上下、左右へのメニュー内の余白*/
+	border-bottom: 1px solid #fff;	/*下の線の幅、線種、色*/
+	color: #fff;		/*文字色*/
 }
 /*PC用メニューを非表示にする*/
 #menubar {display: none;}
@@ -646,6 +656,10 @@ ol {
 ---------------------------------------------------------------------------*/
 /*子メニューの見出しの追加。基本は上のブロックで設定しています。*/
 #menubar_hdr2 {
+	padding-left: 35px;
+}#menubar_hdr3 {
+	padding-left: 35px;
+}#menubar_hdr4 {
 	padding-left: 35px;
 }
 /*子メニューメニューブロック全体*/
@@ -656,16 +670,51 @@ ol {
 	border: 1px solid #666;		/*上の線の幅、線種、色*/
 	border-bottom: none;		/*下の線のみ消す*/
 }
+#menubar-s3 {
+	display: block;
+	margin-top: 10px;
+	background: rgba(0,0,0,0.5);	/*背景色*/
+	border: 1px solid #666;		/*上の線の幅、線種、色*/
+	border-bottom: none;		/*下の線のみ消す*/
+}#menubar-s4 {
+	display: block;
+	margin-top: 10px;
+	background: rgba(0,0,0,0.5);	/*背景色*/
+	border: 1px solid #666;		/*上の線の幅、線種、色*/
+	border-bottom: none;		/*下の線のみ消す*/
+}
 /*「＞」アイコン設定*/
 #menubar_hdr2.close {
+	background: url(../images/arrow2.png) no-repeat 10px 18px / 18px;
+}
+#menubar_hdr3.close {
+	background: url(../images/arrow2.png) no-repeat 10px 18px / 18px;
+}
+#menubar_hdr4.close {
 	background: url(../images/arrow2.png) no-repeat 10px 18px / 18px;
 }
 /*「＾」アイコン設定*/
 #menubar_hdr2.open {
 	background: url(../images/arrow3.png) no-repeat 10px 18px / auto 18px;
 }
+#menubar_hdr3.open {
+	background: url(../images/arrow3.png) no-repeat 10px 18px / auto 18px;
+}
+#menubar_hdr4.open {
+	background: url(../images/arrow3.png) no-repeat 10px 18px / auto 18px;
+}
 /*子メニュー１個あたりの設定*/
 #menubar-s2 li a {
+	color: #fff !important;	/*文字色*/
+	padding: 5px;	/*余白*/
+	border-bottom: 1px solid #666 !important;		/*下の線の幅、線種、色*/
+}
+#menubar-s3 li a {
+	color: #fff !important;	/*文字色*/
+	padding: 5px;	/*余白*/
+	border-bottom: 1px solid #666 !important;		/*下の線の幅、線種、色*/
+}
+#menubar-s4 li a {
 	color: #fff !important;	/*文字色*/
 	padding: 5px;	/*余白*/
 	border-bottom: 1px solid #666 !important;		/*下の線の幅、線種、色*/
@@ -725,7 +774,7 @@ ul.icon {
 		font-size: 13px;
 	}
 	
-	}
+	
 
 @media screen and (max-width:800px){
 	.stext{
