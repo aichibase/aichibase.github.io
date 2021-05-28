@@ -440,18 +440,18 @@ footer .pr {display: block;}
 }
 .ta2, .ta2 td, .ta2 th {
 	border: 1px solid #ccc;	/*テーブルの枠線の幅、線種、色*/
-	padding: 10px;	/*ボックス内の余白*/
+	padding: 5px;	/*ボックス内の余白*/
 	word-break: break-all;
 }
 .ta3, .ta3 td, .ta3 th {
 	border-right:  1px solid #ccc;	/*テーブルの枠線の幅、線種、色*/
-	padding: 10px;	/*ボックス内の余白*/
+	padding: 5px;	/*ボックス内の余白*/
 	word-break: break-all;
 }
 .ta4, .ta4 td, .ta4 th {
 	border-bottom:  1px solid #ccc;	/*テーブルの枠線の幅、線種、色*/
 	border-top:  1px solid #ccc;
-	padding: 10px;	/*ボックス内の余白*/
+	padding: 5px;	/*ボックス内の余白*/
 	word-break: break-all;
 	text-align: 
 }
@@ -459,44 +459,44 @@ footer .pr {display: block;}
 	border-bottom:  1px solid #ccc;	/*テーブルの枠線の幅、線種、色*/
 	border-top:  1px solid #ccc;
 	border-right:  1px solid #ccc;
-	padding: 10px;	/*ボックス内の余白*/
+	padding: 5px;	/*ボックス内の余白*/
 	word-break: break-all;
 }
 .ta6, .ta6 td, .ta6 th {
 	border-top:  1px solid #ccc;
-	padding: 10px;	/*ボックス内の余白*/
+	padding: 5px;	/*ボックス内の余白*/
 	word-break: break-all;
 }
 .ta7, .ta7 td, .ta7 th {
 	border-bottom:  1px solid #ccc;	/*テーブルの枠線の幅、線種、色*/
 	border-top:  1px solid #ccc;
 	border-left:  1px solid #ccc;
-	padding: 10px;	/*ボックス内の余白*/
+	padding: 5px;	/*ボックス内の余白*/
 	word-break: break-all;
 }
 .ta8, .ta8 td, .ta8 th {
 	border-top:  1px solid #ccc;
 	border-left:  1px solid #ccc;
-	padding: 10px;	/*ボックス内の余白*/
+	padding: 5px;	/*ボックス内の余白*/
 	word-break: break-all;
 }
 .ta9, .ta9 td, .ta9 th {
 	border-bottom:  1px solid #ccc;
 	border-left:  1px solid #ccc;
-	padding: 10px;	/*ボックス内の余白*/
+	padding: 5px;	/*ボックス内の余白*/
 	word-break: break-all;
 }
 .ta10, .ta10 td, .ta10 th {
 	border-top:  1px solid #ccc;
 	border-right:  1px solid #ccc;
-	padding: 10px;	/*ボックス内の余白*/
+	padding: 5px;	/*ボックス内の余白*/
 	word-break: break-all;
 	width:90%
 }
 .ta11, .ta11 td, .ta11 th {
 	border-bottom:  1px solid #ccc;
 	border-right:  1px solid #ccc;
-	padding: 10px;	/*ボックス内の余白*/
+	padding: 5px;	/*ボックス内の余白*/
 	word-break: break-all;
 	width:90%
 }
@@ -781,6 +781,10 @@ ul.icon {
 	}
 	
 	
+		
+		
+		
+		
 
 @media screen and (max-width:800px){
 	.stext{
@@ -793,6 +797,13 @@ ul.icon {
 	}
 }
 
+		
+		
+		
+		
+		
+		
+		
 /*画面幅600px以下の設定
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:600px){
@@ -895,10 +906,17 @@ body.s-n #sub,body.s-n #footermenu {display: none;}
 
 }
 		
-		.stext{
-			font-size:10px;
+.stext{
+	font-size:10px;
 		}
-
+		
+.ta1 th {
+	width: 50px;	/*幅*/
+	text-align: center;	/*センタリング*/
+	font-weight: normal;
+}
+		
+		
 @media print{
 
 }
