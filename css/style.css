@@ -227,6 +227,15 @@ ul.icon img {
 	color: #000;		/*文字色*/
 	margin-bottom: 3%;	/*ボックス同士に空けるスペース*/
 }
+#contents .list5 {
+	position: relative;overflow: hidden;
+	display: flex;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 3%;	/*ボックス同士に空けるスペース*/
+	padding:2%
+}
 /*リンクテキストの文字色*/
 #contents .list a {
 	color: #fff;
@@ -600,7 +609,8 @@ ul.disc {
 ol {
 	padding: 1% 1% 1% 8%;
 	background: #FFFFFF;
-	margin:2% 0% 2% 0%
+	margin:2% 0% 3% 0%;
+	text-align: left;
 }
 
 /*その他
@@ -983,4 +993,5 @@ ul.side li {
 	list-style-type: decimal;
 	background: #FFFFFF;
 	text-align: left;
+	
 }
