@@ -217,7 +217,7 @@ ul.icon img {
 	align-items: center;
 	background: #fff;	/*背景色*/
 	color: #000;		/*文字色*/
-	margin-bottom: 3%;	/*ボックス同士に空けるスペース*/
+	margin-bottom: 2%;	/*ボックス同士に空けるスペース*/
 }
 #contents .list4 {
 	position: relative;overflow: hidden;
@@ -453,7 +453,6 @@ footer .pr {display: block;}
 	border-top:  1px solid #ccc;
 	padding: 5px;	/*ボックス内の余白*/
 	word-break: break-all;
-	text-align: 
 }
 .ta5, .ta5 td, .ta5 th {
 	border-bottom:  1px solid #ccc;	/*テーブルの枠線の幅、線種、色*/
@@ -496,6 +495,22 @@ footer .pr {display: block;}
 .ta11, .ta11 td, .ta11 th {
 	border-bottom:  1px solid #ccc;
 	border-right:  1px solid #ccc;
+	padding: 5px;	/*ボックス内の余白*/
+	word-break: break-all;
+	width:90%
+}
+.ta12, .ta12 td, .ta12 th {
+	border-top:  1px solid #ccc;
+	border-right:  1px solid #ccc;
+	border-left:  1px solid #ccc;
+	padding: 5px;	/*ボックス内の余白*/
+	word-break: break-all;
+	width:90%
+}
+.ta13, .ta13 td, .ta13 th {
+	border-bottom:  1px solid #ccc;
+	border-right:  1px solid #ccc;
+	border-left:  1px solid #ccc;
 	padding: 5px;	/*ボックス内の余白*/
 	word-break: break-all;
 	width:90%
@@ -583,7 +598,9 @@ ul.disc {
 	padding: 0 20px 20px 45px;
 }
 ol {
-	padding: 0 20px 20px 45px;
+	padding: 1% 1% 1% 8%;
+	background: #FFFFFF;
+	margin:2% 0% 2% 0%
 }
 
 /*その他
@@ -781,7 +798,7 @@ ul.icon {
 	}
 	
 	
-		
+}
 		
 		
 		
@@ -795,7 +812,7 @@ ul.icon {
 		width:20%;
 
 	}
-}
+		}
 
 		
 		
@@ -904,8 +921,8 @@ body.s-n #sub,body.s-n #footermenu {display: none;}
 .fl {float: none;}
 .fr {float: none;}
 
-}
-		
+
+
 .stext{
 	font-size:10px;
 		}
@@ -915,7 +932,7 @@ body.s-n #sub,body.s-n #footermenu {display: none;}
 	text-align: center;	/*センタリング*/
 	font-weight: normal;
 }
-		
+		}
 		
 @media print{
 
@@ -965,7 +982,5 @@ ul.side li {
 .keiei ol{
 	list-style-type: decimal;
 	background: #FFFFFF;
-	margin-bottom:5%;
-	padding-bottom:1%;
 	text-align: left;
 }
