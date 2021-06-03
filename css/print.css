@@ -54,6 +54,12 @@
     }
 }
 
+@media print{
+    .no_print{
+        display: none;
+    }
+}
+
     /*firefox frexbox繝舌げ隗｣豸�*/
 /*@-moz-document url-prefix() {
     body,
