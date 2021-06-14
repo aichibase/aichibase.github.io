@@ -236,6 +236,14 @@ ul.icon img {
 	margin-bottom: 3%;	/*ボックス同士に空けるスペース*/
 	padding:2%
 }
+#contents .list10 {
+	position: relative;overflow: hidden;
+	display: flex;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
 /*リンクテキストの文字色*/
 #contents .list a {
 	color: #fff;
@@ -247,6 +255,9 @@ ul.icon img {
 	color: #fff;
 }
 #contents .list4 a {
+	color: #fff;
+}
+#contents .list10 a {
 	color: #fff;
 }
 /*ボックス内のh4（見出し）タグ*/
@@ -279,11 +290,14 @@ ul.icon img {
 #contents .list4 p {
 	padding: 0;		/*余白のリセット*/
 }
+#contents .list10 p {
+	padding: 0;		/*余白のリセット*/
+}
 /*ボックス内のfigure画像*/
 #contents .list figure {
 	float: left;	/*左に回り込み*/
 	width: 30%;		/*画像の幅*/
-	margin-left: 3%;
+	margin: 3%;
 }
 #contents .list2 figure {
 	float: left;	/*左に回り込み*/
@@ -316,6 +330,12 @@ ul.icon img {
 	width: 30%;		/*画像の幅*/
 	margin: 3%;
 }
+#contents .list10 figure {
+	float: left;	/*左に回り込み*/
+	width: 30%;		/*画像の幅*/
+	margin: 3%;
+	
+}
 /*「class="text"」を指定したブロック。テキストブロック。*/
 #contents .list .text {
 	float: right;	/*右に回り込み*/
@@ -334,6 +354,11 @@ ul.icon img {
 }
 #contents .list4 .text {
 	float: left;	/*右に回り込み*/
+	width: 64%;		/*幅*/
+	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
+#contents .list10 .text {
+	float: right;	/*右に回り込み*/
 	width: 64%;		/*幅*/
 	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
@@ -803,6 +828,25 @@ ul.icon {
 	width: 90%;		/*幅*/
 	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
+#contents .list10 {
+	position: relative;overflow: hidden;
+	display: block;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
+#contents .list10 figure {
+	float: left;	/*左に回り込み*/
+	width: 40%;		/*画像の幅*/
+	margin-left: 30%;
+	margin-top: 3%;
+}	
+#contents .list10 .text {
+	float: right;	/*右に回り込み*/
+	width: 90%;		/*幅*/
+	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
 	.stext{
 		font-size: 13px;
 	}
@@ -910,6 +954,25 @@ ul.icon li {
 	width: 90%;		/*幅*/
 	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
+#contents .list10 {
+	position: relative;overflow: hidden;
+	display: block;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
+#contents .list10 figure {
+	float: left;	/*左に回り込み*/
+	width: 40%;		/*画像の幅*/
+	margin-left: 30%;
+	margin-top: 5%;
+}	
+#contents .list10 .text {
+	float: right;	/*右に回り込み*/
+	width: 90%;		/*幅*/
+	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
 /*テーブル（ta1）
 ---------------------------------------------------------------------------*/
 /*ta1設定*/
@@ -994,4 +1057,12 @@ ul.side li {
 	background: #FFFFFF;
 	text-align: left;
 	
+}
+
+
+h5 {
+	margin-bottom: 10px;
+	font-size: 150%;
+	color:#0014B1;
+	font-weight: 600;
 }
