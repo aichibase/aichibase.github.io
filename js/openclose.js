@@ -80,7 +80,7 @@ function do_onoff(hdr, item)
 	var e = document.getElementById(hdr);
 	var e2 = document.getElementById(item);
 	if (e2.style.display == 'none') {
-		e2.style.display = '';
+		e2.style.display = 'block';
 		classList(e).remove('close');
 		classList(e).add('open');
 	} else {
@@ -119,7 +119,7 @@ function OCdisplayWidth()
 	return window.parent.screen.width;
 }
 function OCwindowWidth()
-{
+{		
 	if (window.screen.width < window.innerWidth) {
 		return window.screen.width;
 	}
