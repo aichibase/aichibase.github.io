@@ -297,7 +297,7 @@ ul.icon img {
 #contents .list figure {
 	float: left;	/*左に回り込み*/
 	width: 30%;		/*画像の幅*/
-	margin: 3%;
+	margin: 1%;
 }
 #contents .list2 figure {
 	float: left;	/*左に回り込み*/
@@ -332,15 +332,15 @@ ul.icon img {
 }
 #contents .list10 figure {
 	float: left;	/*左に回り込み*/
-	width: 30%;		/*画像の幅*/
-	margin: 3%;
+	width: 20%;		/*画像の幅*/
+	margin: 1%;
 	
 }
 /*「class="text"」を指定したブロック。テキストブロック。*/
 #contents .list .text {
 	float: right;	/*右に回り込み*/
 	width: 64%;		/*幅*/
-	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+	margin-left: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
 #contents .list2 .text {
 	float: right;	/*右に回り込み*/
@@ -359,8 +359,13 @@ ul.icon img {
 }
 #contents .list10 .text {
 	float: right;	/*右に回り込み*/
-	width: 64%;		/*幅*/
-	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+	width: 70%;		/*幅*/
+	margin: 1%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
+#contents .list10 .text2 {
+	float: right;	/*右に回り込み*/
+	width: 90%;		/*幅*/
+	margin: 1%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
 /*btn1
 ---------------------------------------------------------------------------*/
@@ -673,7 +678,7 @@ ol {
 ---------------------------------------------------------------------------*/
 /*スマホ用メニューブロック全体*/
 #menubar-s {
-	display: block;overflow: auto;height: 100%;
+	overflow: auto;height: 100%;
 	text-align: left;
 	position: fixed;z-index: 100;
 	top: 0px;
@@ -847,6 +852,11 @@ ul.icon {
 	width: 90%;		/*幅*/
 	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
+#contents .list10 .text2 {
+	float: right;	/*右に回り込み*/
+	width: 90%;		/*幅*/
+	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
 	.stext{
 		font-size: 13px;
 	}
@@ -969,6 +979,11 @@ ul.icon li {
 	margin-top: 5%;
 }	
 #contents .list10 .text {
+	float: right;	/*右に回り込み*/
+	width: 90%;		/*幅*/
+	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
+#contents .list10 .text2 {
 	float: right;	/*右に回り込み*/
 	width: 90%;		/*幅*/
 	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
