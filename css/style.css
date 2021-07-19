@@ -375,8 +375,8 @@ ul.icon img {
 	color: #fff;	/*文字色*/
 	max-width: 300px;	/*最大幅。画面幅が狭くなった場合、小さく縮小されていきます。*/
 	text-align: center;	/*テキストをセンタリング*/
-	padding: 5px 30px;	/*上下、左右へのボタン内の余白*/
-	margin: 20px auto 0;	/*上、左右、下へのボタンの外側への余白*/
+	padding: 5px 15px;	/*上下、左右へのボタン内の余白*/
+	margin: 20px 0px 20px 0px ;	/*上、左右、下へのボタンの外側への余白*/
 }
 /*マウスオン事に少し位置をずらす指定*/
 .btn1 a:hover {
@@ -384,6 +384,25 @@ ul.icon img {
 	left: 1px;
 	top: 1px;
 }
+
+/*ラムサウンディング試験*/
+#ExText {
+	width: 466px;
+	margin: 40px auto 0 auto;
+	padding: 5px;
+	border: 2px solid #00006e;
+}
+
+#InExText {
+	padding: 5px;
+	border: 2px solid #00006e;
+	line-height: 1.4;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #00006e;
+}
+
 
 /*フッター設定
 ---------------------------------------------------------------------------*/
@@ -876,7 +895,24 @@ ul.icon {
 		width:20%;
 
 	}
-		}
+	#ExText {
+	width: 366px;
+	margin: 40px auto 0 auto;
+	padding: 5px;
+	border: 2px solid #00006e;
+}
+
+    #InExText {
+	padding: 5px;
+	border: 2px solid #00006e;
+	line-height: 1.4;
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	color: #00006e;
+}		
+}
+
 
 		
 		
@@ -1019,7 +1055,23 @@ body.s-n #sub,body.s-n #footermenu {display: none;}
 	width: 50px;	/*幅*/
 	text-align: center;	/*センタリング*/
 	font-weight: normal;
+		}
+	
+#ExText {
+	width: 300px;
+	margin: 40px auto 0 auto;
+	padding: 5px;
+	border: 2px solid #00006e;
 }
+#InExText {
+	padding: 5px;
+	border: 2px solid #00006e;
+	line-height: 1.4;
+	text-align: center;
+	font-size: 8px;
+	font-weight: bold;
+	color: #00006e;
+}		
 		}
 		
 @media print{
