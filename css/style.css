@@ -931,6 +931,11 @@ ul.icon {
 	.stext{
 		font-size: 13px;
 	}
+	
+	.smalltext{
+		font-size:10px;
+	}
+	
 	.sta{
 		text-align:right;
 		width:20%;
@@ -973,6 +978,19 @@ body {
 	font-size: 2.93vw;
 }
 
+	.smalltext{
+		font-size: 8px;
+	}
+
+#footermenu ul {
+	float: left;		/*左に回り込み*/
+	width: 43%;			/*幅。今回は４列作っているので、この数字と下のpadding-rightとpadding-leftを合計した数字が１列分になる。(23%＋1%＋1%)×4列＝100%*/
+	padding-right: 1%;	/*右に空ける余白*/
+	padding-left: 6%;	/*左に空ける余白*/
+	text-align: left;	/*テキストを左寄せ*/
+	padding-bottom: 3%;
+}	
+	
 /*ヘッダーブロック（ロゴやメニューが入った最上段ブロック）
 ---------------------------------------------------------------------------*/
 /*ヘッダーブロック*/
@@ -1157,8 +1175,8 @@ ul.side li {
 .nowrap {
 	white-space: nowrap; /* 勝手に折り返さない */
 }
-.textright{
-	text-align: right;
+.texleft{
+	text-align: left;
 		}
 .keiei ol{
 	list-style-type: decimal;
@@ -1242,4 +1260,11 @@ h5 {
 }
 .rumimg {
 	padding-bottom:20px;
+}
+
+
+#contents .list10 .text3 {
+	
+	width: 90%;		/*幅*/
+	margin: 1%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
