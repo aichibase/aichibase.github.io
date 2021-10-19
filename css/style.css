@@ -984,8 +984,8 @@ body {
 
 #footermenu ul {
 	float: left;		/*左に回り込み*/
-	width: 43%;			/*幅。今回は４列作っているので、この数字と下のpadding-rightとpadding-leftを合計した数字が１列分になる。(23%＋1%＋1%)×4列＝100%*/
-	padding-right: 1%;	/*右に空ける余白*/
+	width: 38%;			/*幅。今回は４列作っているので、この数字と下のpadding-rightとpadding-leftを合計した数字が１列分になる。(23%＋1%＋1%)×4列＝100%*/
+	padding-right: 6%;	/*右に空ける余白*/
 	padding-left: 6%;	/*左に空ける余白*/
 	text-align: left;	/*テキストを左寄せ*/
 	padding-bottom: 3%;
@@ -1004,6 +1004,10 @@ header #logo img {
 	float: none;	/*左に回り込み*/
 }
 
+	.textleft{
+		text-align: right;
+	}	
+	
 /*facebookやtwitterなどのアイコン
 ---------------------------------------------------------------------------*/
 /*アイコン全体を囲むブロック*/
