@@ -1,8 +1,8 @@
 div.list10 table {
-	width: 850px;
+	width: 70%;
 	margin: 20px;
 	border-collapse: collapse;
-	border: 0 none;
+	border: 0px none;
 }
 
 div.list10 table tr th {
@@ -61,7 +61,7 @@ div.list10 table tr .Cell07 {
 	width: 600px;
 	margin: 20px;
 	border-collapse: collapse;
-	border: 0 none;
+	border: 0px none;
 }
 
 div.list10 table tr th {
@@ -87,7 +87,7 @@ div.list10 table tr td {
 	width: 99%;
 	margin: 1%;
 	border-collapse: collapse;
-	border: 0 none;
+	border: 0px none;
 }
 
 div.list10 table tr th {

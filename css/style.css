@@ -22,8 +22,8 @@ body {
 }
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form,select,textarea,input {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
 ul {list-style-type: none;}
-img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
-table {border-collapse:collapse;font-size: 100%;border-spacing: 0;width:100%;}
+img {border: none;max-width: 100%;height: auto;vertical-align: middle;margi-left:10px;}
+table {border-collapse: collapse;font-size: 100%;border-spacing: 0;width:100%;}
 video {max-width: 100%;}
 iframe {width: 100%;}
 
@@ -72,7 +72,7 @@ header #logo img {
 #menubar li a, .ddmenu-title {
 	display: block;text-decoration: none;
 	color: #fff;	/*文字色*/
-	padding: 0px 20px;	/*上下、左右へのメニュー内の余白*/
+	padding: 0px 17px;	/*上下、左右へのメニュー内の余白*/
 	line-height: 50px;	/*行間。headerのheightと数字を合わせる。*/
 }
 /*マウスオン時の背景色*/
@@ -140,6 +140,21 @@ ul.icon img {
 /*コンテンツ（contents）
 ---------------------------------------------------------------------------*/
 /*コンテンツブロック全体*/
+div.child{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:15%;
+   font-size:13px;
+	
+}
+div.child2{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:25%;
+   font-size:14px;
+	
+}
+
 #contents {
 	margin-top: 50px;	/*上に空ける余白。headerとの間に空けたいスペースを調整して下さい*/
 	padding: 3%;		/*コンテンツ内の余白*/
@@ -244,6 +259,30 @@ ul.icon img {
 	color: #000;		/*文字色*/
 	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
 }
+#contents .list12 {
+	position: relative;overflow: hidden;
+	display: flex;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
+#contents .list12 {
+	position: relative;overflow: hidden;
+	display: flex;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
+#contents .list11 {
+	position: relative;overflow: hidden;
+	display: flex;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
 /*リンクテキストの文字色*/
 #contents .list a {
 	color: #fff;
@@ -258,6 +297,9 @@ ul.icon img {
 	color: #fff;
 }
 #contents .list10 a {
+	color: #fff;
+}
+#contents .list11 a {
 	color: #fff;
 }
 /*ボックス内のh4（見出し）タグ*/
@@ -291,6 +333,9 @@ ul.icon img {
 	padding: 0;		/*余白のリセット*/
 }
 #contents .list10 p {
+	padding: 0;		/*余白のリセット*/
+}
+#contents .list11 p {
 	padding: 0;		/*余白のリセット*/
 }
 /*ボックス内のfigure画像*/
@@ -336,11 +381,17 @@ ul.icon img {
 	margin: 1%;
 	
 }
+#contents .list11 figure {
+	float: left;	/*左に回り込み*/
+	width: 100%;
+	margin-right: 1%;/*画像の幅*/	
+}
+
 /*「class="text"」を指定したブロック。テキストブロック。*/
 #contents .list .text {
 	float: right;	/*右に回り込み*/
 	width: 64%;		/*幅*/
-	margin-left: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+	margin-left: 5%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
 #contents .list2 .text {
 	float: right;	/*右に回り込み*/
@@ -363,6 +414,16 @@ ul.icon img {
 	margin: 1%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
 #contents .list10 .text2 {
+	float: right;	/*右に回り込み*/
+	width: 90%;		/*幅*/
+	margin: 1%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
+#contents .list11 .text {
+	float: right;	/*右に回り込み*/
+	width: 70%;		/*幅*/
+	margin: 1%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
+#contents .list11 .text2 {
 	float: right;	/*右に回り込み*/
 	width: 90%;		/*幅*/
 	margin: 1%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
@@ -733,7 +794,20 @@ ol {
 /*画面幅900px以下の設定
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
 	@media screen and (max-width:950px){
-
+div.child{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:20%;
+   font-size:12px;
+	
+}
+div.child2{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:25%;
+   font-size:13px;
+	
+}
 /*メインメニュー
 ---------------------------------------------------------------------------*/
 /*スマホ用メニューブロック全体*/
@@ -893,7 +967,24 @@ ul.icon {
 	width: 90%;		/*幅*/
 	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
+		
 #contents .list10 {
+	position: relative;overflow: hidden;
+	display: block;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
+		#contents .list12 {
+	position: relative;overflow: hidden;
+	display: block;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
+		#contents .list12 {
 	position: relative;overflow: hidden;
 	display: block;
 	align-items: center;
@@ -917,10 +1008,34 @@ ul.icon {
 	width: 90%;		/*幅*/
 	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
+#contents .list11 {
+	position: relative;overflow: hidden;
+	display: block;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
+#contents .list11 figure {
+	float: left;	/*左に回り込み*/
+	width: 100%;		/*画像の幅*/
+	margin-left: 0%;
+	margin-top: 2%;
+}	
+#contents .list11 .text {
+	float: right;	/*右に回り込み*/
+	width: 90%;		/*幅*/
+	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
+#contents .list11 .text2 {
+	float: right;	/*右に回り込み*/
+	width: 90%;		/*幅*/
+	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
 	.stext{
 		font-size: 13px;
 	}
-	
+
 	
 }
 		
@@ -956,10 +1071,40 @@ ul.icon {
 	font-size: 11px;
 	font-weight: bold;
 	color: #00006e;
-}		
+}
+div.child{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:20%;
+   font-size:11px;
+	
+}
+	div.child2{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:25%;
+   font-size:13px;
+	
+}
+	
 }
 
-
+@media screen and (max-width:700px){
+	div.child{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:33%;
+   font-size:10px;
+	
+}	
+	div.child2{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:30%;
+   font-size:13px;
+	
+}
+}
 		
 		
 		
@@ -1071,9 +1216,33 @@ ul.icon li {
 	color: #000;		/*文字色*/
 	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
 }
+	#contents .list12 {
+	position: relative;overflow: hidden;
+	display: block;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
+	#contents .list10 {
+	position: relative;overflow: hidden;
+	display: block;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
+		#contents .list12 {
+	position: relative;overflow: hidden;
+	display: block;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
 #contents .list10 figure {
 	float: left;	/*左に回り込み*/
-	width: 40%;		/*画像の幅*/
+	width: 600%;		/*画像の幅*/
 	margin-left: 30%;
 	margin-top: 5%;
 }	
@@ -1087,7 +1256,46 @@ ul.icon li {
 	width: 90%;		/*幅*/
 	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
-/*テーブル（ta1）
+#contents .list11 {
+	position: relative;overflow: hidden;
+	display: block;
+	align-items: center;
+	background: #fff;	/*背景色*/
+	color: #000;		/*文字色*/
+	margin-bottom: 1px;	/*ボックス同士に空けるスペース*/
+}
+#contents .list11 figure {
+	float: left;	/*左に回り込み*/
+	width: 100%;		/*画像の幅*/
+	margin-left: 0%;
+	margin-top: 5%;
+}	
+#contents .list11 .text {
+	float: right;	/*右に回り込み*/
+	width: 90%;		/*幅*/
+	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
+#contents .list11 .text2 {
+	float: right;	/*右に回り込み*/
+	width: 90%;		/*幅*/
+	margin: 3%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
+div.child{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:40%;
+   font-size:11px;
+	
+}
+div.child2{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:50%;
+   font-size:15px;
+	
+}
+	
+	/*テーブル（ta1）
 ---------------------------------------------------------------------------*/
 /*ta1設定*/
 .ta1, .ta1 td, .ta1 th {
@@ -1231,6 +1439,7 @@ h5 {
 @media screen and (max-width: 991px) {
 	.flex-col5::after,
 	.flex-col5 .flex-child { width: calc( (100% - 20px) / 3 ); }
+
 }
 
 /* 767px以下で4列・3列 → 2列 */
@@ -1238,6 +1447,8 @@ h5 {
 	.flex-col5 .flex-child,
 	.flex-col3 .flex-child,	
 	.flex-col4 .flex-child { width: calc( (100% - 10px) / 2 ); }
+
+	
 }
 
 /* 575px以下で全て1列 */
@@ -1262,6 +1473,16 @@ h5 {
 	color: #00006e;
 }		
 }
+
+@media screen and (max-width: 575px){
+	div.child{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:50%;
+   font-size:11px;
+	
+}	
+}
 .rumimg {
 	padding-bottom:20px;
 }
@@ -1272,3 +1493,76 @@ h5 {
 	width: 90%;		/*幅*/
 	margin: 1%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
 }
+#contents .list12 .text3 {
+	
+	width: 70%;		/*幅*/
+	margin: 1%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
+#contents .list11 .text3 {
+	
+	width: 90%;		/*幅*/
+	margin: 1%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
+
+.top {
+	width:420px;
+}
+
+
+.center {
+	margin:5%;
+	
+}
+
+#contents .list11 .text5 {
+	float: right;	/*右に回り込み*/
+	width: 100%;		/*幅*/
+	margin-left: 3%;/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+	vertical-align: top;
+}
+#contents .list11 .text5 {
+	float: right;	/*右に回り込み*/
+	width: 100%;		/*幅*/
+	margin-left: 4%;/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+	vertical-align: top;
+}
+.hyousou {
+	padding-right: 5px;
+	width:90%;
+}
+
+.solo {
+	padding-top:30px;
+}
+
+div.list10 table tr .Cell010 {
+	width: 10%;
+}
+
+div.list10 table tr .Cell020 {
+	width: 20%;
+}
+
+
+div.list10 table tr .Cell060 {
+	width: 20%;
+	text-align: left;
+}
+
+div.list10 table tr .Cell070 {
+	width: 150px;
+}
+
+.ultra {
+	margin:20px 8px 0px 0px;
+}
+.ultra2 {
+	margin:20px 8px 0px 0;
+	width:100%;
+}
+
+div.child_flame{
+	clear:both;
+}
+
+
