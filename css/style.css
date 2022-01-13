@@ -1242,8 +1242,8 @@ ul.icon li {
 }
 #contents .list10 figure {
 	float: left;	/*左に回り込み*/
-	width: 600%;		/*画像の幅*/
-	margin-left: 30%;
+	width: 100%;		/*画像の幅*/
+	margin-left: 5%;
 	margin-top: 5%;
 }	
 #contents .list10 .text {
