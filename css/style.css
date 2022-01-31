@@ -20,12 +20,59 @@ body {
 	background: #f5f3f0;	/*背景色*/
 	-webkit-text-size-adjust: none;
 }
-h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form,select,textarea,input {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,form,figure,form,select,textarea,input {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
 ul {list-style-type: none;}
 img {border: none;max-width: 100%;height: auto;vertical-align: middle;margi-left:10px;}
 table {border-collapse: collapse;font-size: 100%;border-spacing: 0;width:100%;}
 video {max-width: 100%;}
 iframe {width: 100%;}
+
+/*土壌・地下水汚染のしくみ*/
+#SpeHarmful {
+	width: 100%;
+	border-collapse: collapse;
+	border: 0 none;
+}
+
+table#SpeHarmful tr th {
+	padding: 2px;
+	border: 1px solid #8e79af;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 90%;
+	font-weight: normal;
+}
+
+table#SpeHarmful tr th#NoBorder {
+	border: 0 none;
+}
+
+table#SpeHarmful tr th.TopTitle {
+	background: #cabed7;
+	font-size: 90%;
+	color: #000;
+}
+
+table#SpeHarmful tr th.LeftTitle {
+	background: #816ba6;
+	color: #fff;
+}
+
+table#SpeHarmful tr td {
+	padding: 2px;
+	border: 1px solid #8e79af;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 90%;
+	font-weight: normal;
+}
+
+table#SpeHarmful tr td.NoList {
+	width: 520px;
+	height: 20px;
+	border: 0 none;
+}
+
 
 /*リンク（全般）設定
 ---------------------------------------------------------------------------*/
@@ -38,6 +85,39 @@ a:hover {
 	text-decoration: none;
 }
 
+.soil {
+	margin:15px;
+	width:250px;
+}
+.soil4 {
+	margin:15px;
+	width:250px;
+}
+.soil2 {
+	margin:15px;
+	width:230px;
+}
+.soil3 {
+	margin:15px;
+	width:400px;
+}
+
+.under3 {
+    vertical-align: bottom;
+    margin: 3% 2% 3% 2%;
+ 
+    border: 1px solid #000000;
+    width: 46%;
+	height: 45%;
+}
+.under4 {
+    
+    margin: 3% 2% 3% 2%;
+ 
+    border: 1px solid #000000;
+    width: 100%;
+	
+}
 /*ヘッダーブロック（ロゴやメニューが入った最上段ブロック）
 ---------------------------------------------------------------------------*/
 /*ヘッダーブロック*/
@@ -72,7 +152,7 @@ header #logo img {
 #menubar li a, .ddmenu-title {
 	display: block;text-decoration: none;
 	color: #fff;	/*文字色*/
-	padding: 0px 17px;	/*上下、左右へのメニュー内の余白*/
+	padding: 0px 14px;	/*上下、左右へのメニュー内の余白*/
 	line-height: 50px;	/*行間。headerのheightと数字を合わせる。*/
 }
 /*マウスオン時の背景色*/
@@ -150,8 +230,11 @@ div.child{
 div.child2{
    float:left;
    margin: 1% 0% 0% 2%;
-   width:25%;
+   width:20%;
    font-size:14px;
+}
+div.child2 p{
+  margin-left:10px;
 	
 }
 
@@ -174,6 +257,18 @@ div.child2{
 	line-height: 50px;		/*行間*/
 	padding-left: 30px;		/*左に空ける余白*/
 }
+#contents h4 {
+    clear: both;
+    margin-bottom: 20px;	/*下に空けるスペース*/
+    font-size: 200%;		/*文字サイズ*/
+      background: -webkit-linear-gradient(to right, rgb(70, 15, 255), #A3A8FD);
+  background: linear-gradient(to right, rgb(70, 15, 255), #A3A8FD);	/*背景色*/
+    color: #fff;			/*文字色*/
+ 		/*行間*/
+    border-radius: 0.5em;/*角の丸み*/
+    padding-left: 20px;		/*左に空ける余白*/
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.56)
+}
 /*h2タグ内のspanタグ*/
 #contents h2 span {
 	font-size: 80%;	/*文字サイズ*/
@@ -188,6 +283,15 @@ div.child2{
 	clear: both;
 	margin-bottom: 20px;	/*下に空けるスペース*/
 	font-size: 120%;		/*文字サイズ*/
+	font-weight:bold;
+	border-bottom: 2px solid #000;	/*下の線の幅、線種、色*/
+	padding-left: 20px;		/*左に空ける余白*/
+}
+#contents h6 {
+	clear: both;
+	margin-bottom: 20px;	/*下に空けるスペース*/
+	font-size: 200%;		/*文字サイズ*/
+	font-weight:bold;
 	border-bottom: 2px solid #000;	/*下の線の幅、線種、色*/
 	padding-left: 20px;		/*左に空ける余白*/
 }
@@ -776,6 +880,7 @@ ol {
 .wl {width: 96%;}
 .ws {width: 50%;}
 .c {text-align: center;}
+
 .r {text-align: right;}
 .l {text-align: left;}
 .fl {float: left;}
@@ -784,7 +889,13 @@ ol {
 .mini1 {font-size: 11px;display: inline-block;line-height: 1.5;}
 .dn {display: none;}
 .sh {display: none;}
-
+	
+.chaild3 p{
+   
+   font-size:13px;
+   margin-left:8px;
+	
+}
 
 @media screen and (max-width:1150px){
 	.stext{
@@ -804,6 +915,13 @@ div.child{
 div.child2{
    float:left;
    margin: 1% 0% 0% 2%;
+   width:25%;
+   font-size:13px;
+	
+}
+.chaild3{
+   float:left;
+   margin: 1% 0% 5% 2%;
    width:25%;
    font-size:13px;
 	
@@ -1035,7 +1153,22 @@ ul.icon {
 	.stext{
 		font-size: 13px;
 	}
+.under3 {
+    vertical-align: bottom;
+    margin: 3% 2% 3% 2%;
+ 
+    border: 1px solid #000000;
+    width: 44%;
+	height: 45%;
+}
+		.under4 {
+    vertical-align: bottom;
+    margin: 3% 1% 3% 1%;
+ 
+    border: 1px solid #000000;
+   width:100%;
 
+}
 	
 }
 		
@@ -1104,6 +1237,23 @@ div.child{
    font-size:13px;
 	
 }
+	.chaild3{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:30%;
+   font-size:10px;
+	
+}
+.soil {
+	margin:10px;
+	width:200px;
+}
+.soil4 {
+	margin:15px;
+	width:220px;
+}
+
+	
 }
 		
 		
@@ -1115,7 +1265,13 @@ div.child{
 /*画面幅600px以下の設定
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:600px){
-
+.chaild3{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:25%;
+   font-size:8px;
+	
+}
 /*全体の設定
 ---------------------------------------------------------------------------*/
 body {
@@ -1183,6 +1339,12 @@ ul.icon li {
 }
 /*h3タグ*/
 #contents h3 {
+	padding-left: 15px;		/*左に空ける余白*/
+}
+	#contents h6 {
+	padding-left: 15px;		/*左に空ける余白*/
+}
+	#contents h4 {
 	padding-left: 15px;		/*左に空ける余白*/
 }
 /*段落タグ設定*/
@@ -1292,8 +1454,13 @@ div.child2{
    margin: 1% 0% 0% 2%;
    width:50%;
    font-size:15px;
-	
-}
+	}
+.chaild3{
+   float:left;
+   margin: 5px;
+   font-size: 150%;	
+}	
+
 	
 	/*テーブル（ta1）
 ---------------------------------------------------------------------------*/
@@ -1403,19 +1570,24 @@ h5 {
 	font-weight: 600;
 }
 
+
 /* フレックスボックスの基本設定 等間隔（両端揃え）折返しあり */
-[class^="flex-col"] {
+.flex-col4 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-
+.flex-col3 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
+}
 /* コンテンツ下のマージン */
 .flex-child { margin-bottom: 10px; }
 
 /* 各カラム毎のコンテンツと疑似要素の横幅 */
 .flex-col2 .flex-child { width: calc( (100% - 10px) / 2 ); }
-.flex-col3::after,
+.flex-col3::after
 .flex-col3 .flex-child { width: calc( (100% - 20px) / 3 ); }
 
 .flex-col4::before,
@@ -1440,6 +1612,15 @@ h5 {
 	.flex-col5::after,
 	.flex-col5 .flex-child { width: calc( (100% - 20px) / 3 ); }
 
+div.chaild3 p{
+   
+	font-size:60%;
+}
+	
+.soil4 {
+	margin:15px;
+	width:200px;
+}	
 }
 
 /* 767px以下で4列・3列 → 2列 */
@@ -1448,22 +1629,28 @@ h5 {
 	.flex-col3 .flex-child,	
 	.flex-col4 .flex-child { width: calc( (100% - 10px) / 2 ); }
 
-	
 }
 
 /* 575px以下で全て1列 */
 @media screen and (max-width: 575px) {
 	.flex-col2 .flex-child,
-	.flex-col3 .flex-child,
 	.flex-col .flex-child { width: 100%; 
 	}
+	
+	.under4 {
+    vertical-align: bottom;
+    margin: 3% 1% 3% 1%;
+    border: 1px solid #000000;
+    width:70%;
+
+}
 	#ExText {
 	width: 200px;
 	margin: 40px auto 0 auto;
 	padding: 5px;
 	border: 2px solid #00006e;
 }
-#InExText {
+    #InExText {
 	padding: 5px;
 	border: 2px solid #00006e;
 	line-height: 1.4;
@@ -1482,6 +1669,23 @@ h5 {
    font-size:11px;
 	
 }	
+	div.child2{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:100%;
+   font-size:11px;
+	
+}		
+	.soil {
+	margin:5px;
+	width:125px;
+}
+	.soil4 {
+	margin:5px;
+	width:125px;
+}
+
+	
 }
 .rumimg {
 	padding-bottom:20px;
@@ -1564,5 +1768,62 @@ div.list10 table tr .Cell070 {
 div.child_flame{
 	clear:both;
 }
+
+
+
+.under {
+	vertical-align: bottom;
+	margin-left:5px;
+	padding-top:5px;
+}
+.under2 {
+    vertical-align: bottom;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    width: auto;
+    height: 250px;
+    margin-right: 0px;
+}
+
+
+
+
+.text4 {
+	font-size:60%
+}
+
+div#parent1{}
+div#parent1 div.chaild_flame{clear:both;}
+div.chaild{
+   float:left;
+   text-align:center;
+   margin: 5px;
+}
+div.chaild2{
+   float:left;
+   margin: 5px;
+   font-size: 150%;	
+}
+.chaild3{
+   float:left;
+   margin: 5px;
+   font-size:150%;	
+}
+div.chaild2 p{
+   margin-left:15px;
+	font-weight:bold;
+}
+
+
+
+.text6 {
+	margin:1%;
+}
+
+.blank {
+	padding:5%;
+}
+
 
 
