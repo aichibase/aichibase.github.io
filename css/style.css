@@ -33,6 +33,14 @@ iframe {width: 100%;}
 	border-collapse: collapse;
 	border: 0 none;
 }
+.under2 {
+    vertical-align: bottom;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    margin-right: 0px;
+	height:180px
+}
 
 table#SpeHarmful tr th {
 	padding: 2px;
@@ -1636,7 +1644,9 @@ div.chaild3 p{
 	.flex-col2 .flex-child,
 	.flex-col .flex-child { width: 100%; 
 	}
-	
+	.simple {
+	width:35%;
+}
 	.under4 {
     vertical-align: bottom;
     margin: 3% 1% 3% 1%;
@@ -1644,6 +1654,8 @@ div.chaild3 p{
     width:70%;
 
 }
+	
+
 	#ExText {
 	width: 200px;
 	margin: 40px auto 0 auto;
@@ -1667,8 +1679,17 @@ div.chaild3 p{
    margin: 1% 0% 0% 2%;
    width:50%;
    font-size:11px;
+}
 	
-}	
+.under2 {
+    vertical-align: bottom;
+    margin-left: 1px;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    margin-right: 0px;
+	height:90px;
+}
+	
 	div.child2{
    float:left;
    margin: 1% 0% 0% 2%;
@@ -1684,9 +1705,10 @@ div.chaild3 p{
 	margin:5px;
 	width:125px;
 }
-
-	
 }
+
+
+
 .rumimg {
 	padding-bottom:20px;
 }
@@ -1776,15 +1798,6 @@ div.child_flame{
 	margin-left:5px;
 	padding-top:5px;
 }
-.under2 {
-    vertical-align: bottom;
-    margin-left: 10px;
-    margin-top: 10px;
-    border: 1px solid #000000;
-    width: auto;
-    height: 250px;
-    margin-right: 0px;
-}
 
 
 
@@ -1824,6 +1837,8 @@ div.chaild2 p{
 .blank {
 	padding:5%;
 }
+
+
 
 
 
