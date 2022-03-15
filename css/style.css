@@ -266,7 +266,7 @@ div.child2 p{
 }
 /*トップページのコンテンツへの追加指定*/
 .home #contents {
-	margin-top: 840px;	/*スライドショーの高さに合わせて調整して下さい*/
+	margin-top: 940px;	/*スライドショーの高さに合わせて調整して下さい*/
 }
 /*h2タグ*/
 #contents h2 {
