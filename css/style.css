@@ -28,7 +28,7 @@ body {
 	background: #f5f3f0;	/*背景色*/
 	-webkit-text-size-adjust: none;
 }
-h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,form,figure,form,select,textarea,input {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
+h1,h2,h3,h4,h5,h6,h7,p,ul,ol,li,dl,dt,dd,form,figure,form,select,textarea,input {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
 ul {list-style-type: none;}
 img {border: none;max-width: 100%;height: auto;vertical-align: middle;margi-left:10px;}
 table {border-collapse: collapse;font-size: 100%;border-spacing: 0;width:100%;}
@@ -280,16 +280,12 @@ div.child2 p{
 	padding-left: 30px;		/*左に空ける余白*/
 }
 #contents h4 {
-    clear: both;
-    margin-bottom: 0px;	/*下に空けるスペース*/
-    font-size: 200%;		/*文字サイズ*/
-      background: -webkit-linear-gradient(to right, rgb(70, 15, 255), #A3A8FD);
-  background: linear-gradient(to right, rgb(70, 15, 255), #A3A8FD);	/*背景色*/
-    color: #fff;			/*文字色*/
- 		/*行間*/
-
-    padding-left: 20px;		/*左に空ける余白*/
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.56)
+	clear: both;
+	margin-bottom: 20px;	/*下に空けるスペース*/
+	font-size: 200%;		/*文字サイズ*/
+	font-weight:bold;
+	border: 2px solid #000;	/*下の線の幅、線種、色*/
+	padding-left: 20px;	
 }
 /*h2タグ内のspanタグ*/
 #contents h2 span {
@@ -317,6 +313,7 @@ div.child2 p{
 	border-bottom: 2px solid #000;	/*下の線の幅、線種、色*/
 	padding-left: 20px;		/*左に空ける余白*/
 }
+
 /*段落タグ設定*/
 #contents p {
 	padding: 0px 20px 20px;	/*上、左右、下への余白*/
@@ -467,8 +464,8 @@ div.child2 p{
 /*ボックス内のfigure画像*/
 #contents .list figure {
 	float: left;	/*左に回り込み*/
-	width: 30%;		/*画像の幅*/
-	margin: 1%;
+	width: 20%;		/*画像の幅*/
+	margin: 1% 0% 1% 2%;
 }
 #contents .list2 figure {
 	float: left;	/*左に回り込み*/
@@ -477,7 +474,7 @@ div.child2 p{
 }
 #contents .list3 figure {
 	float: left;	/*左に回り込み*/
-	width: 30%;		/*画像の幅*/
+	width: 20%;		/*画像の幅*/
 	margin: 3%;
 }
 #contents .list3 figure1 {
@@ -1374,6 +1371,7 @@ ul.icon li {
 	#contents h6 {
 	padding-left: 15px;		/*左に空ける余白*/
 }
+
 	#contents h4 {
 	padding-left: 15px;		/*左に空ける余白*/
 }
@@ -1550,7 +1548,7 @@ body.s-n #sub,body.s-n #footermenu {display: none;}
 ---------------------------------------------------------------------------*/
 .img_wrap{
   border: 1px solid #ddd;
-  width: 20%;
+  width: 15%;
   margin: 2% 0% 2% 4% ;
   transition-duration: 0.5s;
 }
@@ -1899,3 +1897,7 @@ margin:0;padding:0 0 0 15px;text-indent:-1em;
 #small li {
 	margin:0;padding:0 0 0 10px;text-indent:0;
 }
+
+
+
+

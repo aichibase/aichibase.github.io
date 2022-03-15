@@ -33,7 +33,7 @@
 }
 /*１枚目*/
 .slide1 {
-	background: url(../images/title/top5.jpg) repeat-x center center / cover;
+	background: url(../images/title/IMG_0507.jpg) repeat-x center center / cover;
 	animation-name: slide1;		/*keyframes.cssで使う@keyframesの指定*/
 }
 /*２枚目*/
