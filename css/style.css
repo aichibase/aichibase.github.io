@@ -49,12 +49,27 @@ iframe {width: 100%;}
     margin-top: 10px;
     border: 1px solid #000000;
     margin-right: 0px;
-	height:230px
+	height:230px;
+}
+.under5 {
+    vertical-align: bottom;
+    margin-left: 0px;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    margin-right: 0px;
+	height:230px;
 }
 div.chaild9{
    float:left;
    text-align:center;
    margin: 5px;
+   font-size: 17px;
+}
+div.chaild10{
+   float:left;
+   text-align:left;
+   margin-left: 15px;
+   margin-top: 10px;
    font-size: 17px;
 }
 table#SpeHarmful tr th {
@@ -112,6 +127,10 @@ a:hover {
 .soil {
 	margin:15px;
 	width:250px;
+}
+.soil5 {
+	margin:15px 100px 15px 15px;
+	height:700px;
 }
 .soil4 {
 	margin:15px;
@@ -887,6 +906,13 @@ ol {
 	background: #FFFFFF;
 	margin:2% 0% 3% 0%;
 	text-align: left;
+}
+.boringlist ol {
+	padding: 0% 0% 0% 8%;
+	background: #FFFFFF;
+	margin:0% 0% 0% 0%;
+	text-align: left;
+	
 }
 
 /*その他
@@ -1717,6 +1743,15 @@ div.chaild9{
     border: 1px solid #000000;
     margin-right: 0px;
 	height:90px;
+}
+	.under5 {
+    vertical-align: bottom;
+    margin-left: 0px;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    margin-right: 0px;
+	width:100%;
+	height:100%;
 }
 	
 	div.child2{
