@@ -661,6 +661,7 @@ footer {
 	color: #fff;			/*文字色*/
 }
 footer a {color: #fff;}
+
 footer a:hover {color: #fff;}
 footer .pr {display: block;}
 
@@ -828,6 +829,13 @@ footer .pr {display: block;}
 	text-align: center;	/*センタリング*/
 	font-weight: normal;
 }
+#recruit th {
+	width: 20%;	/*幅*/
+	text-align: left;/*センタリング*/
+	font-weight: normal;
+	padding:0 0 0 1%;
+}
+
 ul{list-style: none;}
 /*inputボタン
 ---------------------------------------------------------------------------*/
