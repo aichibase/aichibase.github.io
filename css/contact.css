@@ -1,0 +1,163 @@
+/* CSS Document */
+
+
+div#Contact {
+	width: 1080px;
+	margin: 0;
+}
+
+div#Contact div#InContact {
+	width: 1080px;
+	margin: 15px 0;
+}
+
+div#Contact div#InContact p {
+	width: 980px;
+	margin: 15px 30px;
+	padding: 0 0 0 1em;
+	text-indent: -1em;
+	color: #16096e;
+}
+
+div#Contact div#InContact div#InputBox {
+	width: 700px;
+	margin: 15px 30px;
+}
+
+div#Contact div#InContact div#InputBox table {
+	width: 100%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 0 none;
+}
+
+div#Contact div#InContact div#InputBox table tr th {
+	width: 200px;
+	padding: 5px;
+	background: #ccccfe;
+	border: 1px solid #00006e;
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+div#Contact div#InContact div#InputBox table tr td {
+	width: 280px;
+	padding: 5px;
+	background: #f5f5f5;
+	border: 1px solid #00006e;
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+div#Contact div#InContact div#InputBox table tr td * {
+	vertical-align: -0.2em;
+}
+
+div#Contact div#InContact div#InputBox table tr td ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+div#Contact div#InContact div#InputBox table tr td ul li {
+	padding: 0 1.5em 0 0;
+	float: left;
+	white-space: nowrap;
+}
+
+div#Contact div#InContact div#InputBox table tr td span {
+	display: block;
+	margin: 3px 0 0 0;
+}
+
+div#Contact div#InContact div#InputBox table tr td .Input01 {
+	width: 200px;
+}
+
+div#Contact div#InContact div#InputBox table tr td .Input02 {
+	width: 70%;
+}
+
+div#Contact div#InContact div#InputBox table tr td .Input03 {
+	width: 50%;
+}
+
+div#Contact div#InContact div#InputBox table tr td .Input04 {
+	width: 90%;
+	height: 50px;
+}
+
+div#Contact div#InContact div#InputBox table tr td .Input05 {
+	width: 90%;
+	height: 150px;
+}
+
+div#Contact div#InContact div#InputBox div#Submit {
+	padding: 25px 0 0 0;
+	text-align: center;
+}
+
+/*エラー*/
+div#Contact div#InContact div#Error table {
+	width: 400px;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 0 none;
+}
+
+div#Contact div#InContact div#Error table tr td {
+	padding: 5px;
+	border: 0 none;
+	text-align: left;
+	vertical-align: top;
+}
+
+div#Contact div#InContact div#Error table tr td#Title {
+	text-align: center;
+	vertical-align: top;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div#Contact div#InContact div#Error table tr td#SubMit {
+	padding: 15px 0 0 0;
+	text-align: center;
+	vertical-align: top;
+}
+
+/*チェック*/
+div#Contact div#InContact div#Check table {
+	width: 400px;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 0 none;
+}
+
+div#Contact div#InContact div#Check table tr td {
+	padding: 5px;
+	border: 0 none;
+	text-align: left;
+	vertical-align: top;
+}
+
+div#Contact div#InContact div#Check table tr td#Title {
+	width: 400px;
+	text-align: center;
+	vertical-align: top;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div#Contact div#InContact div#Check table tr td#SubMit {
+	width: 400px;
+	padding: 15px 0 0 0;
+	text-align: center;
+	vertical-align: top;
+}
+
+div#Contact div#InContact div#InputBox p,
+div#Contact div#InContact div#InputBox table tr th span {
+	color: #a00;
+}
+
