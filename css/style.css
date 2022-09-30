@@ -266,7 +266,7 @@ ul.icon img {
 div.child{
    float:left;
    margin: 1% 0% 0% 2%;
-   width:15%;
+   width:10%;
    font-size:13px;
 	
 }
@@ -407,7 +407,7 @@ div.child2 p{
 }
 #contents .list12 {
 	position: relative;overflow: hidden;
-	display: flex;
+	display:block;
 	align-items: center;
 	background: #fff;	/*背景色*/
 	color: #000;		/*文字色*/
@@ -1956,6 +1956,73 @@ margin:0;padding:0 0 0 15px;text-indent:-1em;
 
 .company {
 	position: absolute;left:0px;top:0px;width: 100%;height: 100%;
-	display: block;
 	
+	
+}
+
+.bottom {
+	margin-bottom:2%;
+}
+
+.rising {
+	margin:auto;
+	height:180px;
+}
+
+
+
+.topmargin {
+	margin-left:2%;
+	margin-top:1%;
+}
+.Cell030 {
+	width:3%;
+}
+
+div.list10 table tr .Cell080 {
+	width: 30%;
+	text-align: left;
+}
+
+	div.list10 table tr .Cell090 {
+	width: 20%;
+	text-align:center;
+	vertical-align: middle;
+}
+
+	#contents .list10 .text9 {
+	float: right;	/*右に回り込み*/
+	width: auto;		/*幅*/
+	margin: 1% 1%;		/*外側に取るスペース。これがないと枠ギチギチに文字が表示されます。*/
+}
+
+div.child3{
+   float:left;
+   margin: 1% 0% 0% 2%;
+   width:auto;
+   font-size:13px;
+	
+}
+
+div.list10 table {
+	width: 90%;
+	margin: 1px;
+	border-collapse: collapse;
+	border: 0px none;
+}
+
+.rigingtext {
+	margin-top:1%;
+	line-height: 150%;
+}
+
+h7 {
+	background:url(../images/construction/rising_method/process_subttl.gif) left center no-repeat;line-height:20px;font-size:16px;color:#41826e !important;border:none !important;
+}
+
+
+h7 span{width:auto;padding-right:10px;color:#fff;text-align:center;}
+
+.marginbottom {
+	margin-bottom:1%;
 }
