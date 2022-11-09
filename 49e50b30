@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+
+<title>地盤改良･地盤調査:愛知ベース工業株式会社</title>
+<meta name="Keywords" content="地盤改良,地盤調査,愛知ベース工業" lang="ja">
+<meta name="description" content="パネル操作による管理が可能な地盤改良の機械・沈下修正工事など最先端の技術でお客様の大事な土地の地盤環境調査、地質調査、地盤補強、地盤改良、鋼管杭工事などを行っております。土地という貴重な財産を有効に活用して、よりよい環境を次世代へと引き継ぎ、大地を永遠に有効利用し活かしていくことを理念にしています。" />
+<meta name="Keywords" content="愛知県岡崎市,液状化,沈下,地盤調査,ラムサウンディング試験,各種施工,鋼管杭広工法,表層地盤改良工法,柱状地盤改良工法S 湿式柱状改良杭,柱状地盤改良工法K 乾式柱状改良杭,工法と施工機械,施工管理システム,品質管理" />
+<meta name="robots" content="index,follow" />
+<meta name="viewport" content="width=device-width,initial-scala=1.0">
+<link rel="stylesheet" type="text/css" media="all" href="common/css/base.css?20161118" />
+<link rel="stylesheet" type="text/css" media="all" href="common/css/base_h.css" />
+<script language="javascript" src="common/js/roadstyle.js"></script>
+<link rel="stylesheet" href="jquery.bxslider/jquery.bxslider.css">
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="jquery.bxslider/jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+ $(document).ready(function() {
+ $('.bxslider').bxSlider({
+ 
+ mode: 'fade',	//'horizontal', 'vertical', 'fade'
+speed: 2000,	//１秒掛けてアニメーション移動（2000=2秒）
+startSlide: 0,	//最初のスライドを設定：0からカウントします
+auto: true,	//自動再生［true=ON、false=OFF］
+autoControls: false,	//自動再生のコントローラを表示［true=ON、false=OFF］
+adaptiveHeight: true,	//高さが大きい場合に自動でフィットします
+captions: false,	//true=imgタグのtitle属性を表示［true=表示、false=非表示］
+maxSlides: 1,
+minSlides: 1,
+moveSlides: 1,
+slideMargin: 10,
+slideWidth: 720,//ここにはbxsliderのオプション（auto: true など）
+pager:false,
+ });
+ $('.bxslider').fadeIn(1500);
+ });
+</script>
+
+<link rel="stylesheet" type="text/css" media="all" href="common/css/top.css" />
+</head>
+<body>
+<div id="MainBox">
+	<div id="TopBack">
+		<div id="Contents">
+<!---->
+			<div id="HeadBox">
+				<h1>愛知ベース工業株式会社ではパネル操作による管理が可能な地盤改良の機械・沈下修正工事など最先端の技術でお客様の大事な土地の地盤環境調査、地質調査、地盤補強、地盤改良、鋼管杭工事などを行っております。土地という貴重な財産を有効に活用して、よりよい環境を次世代へと引き継ぎ、大地を永遠に有効利用し活かしていくことを理念にしています。</h1>
+				 <div class="content">
+  <div class="slider">
+	<a href="index.html"><ul class="bxslider"> 
+    <li><img src="img/top/title_n.jpg" alt="sumple1"></li>
+  <li><img class="hide" src="img/top/title-sekkei.png" alt="sumple2"></li>
+    <li><img class="hide" src="img/top/title-kairyo_a.png" alt="sumple3"></li>
+  <li><img class="hide" src="img/top/title-kensa.png" alt="sumple4"></li>
+  <li><img class="hide" src="img/top/title-chosa_a.jpg" alt="sumple5"></li>
+  </ul></a></div></div>
+				
+				<ul>
+					<li><img src="img/service_t.jpg" alt="サービスラインナップ" width="180" height="36" /></li>
+					<!--<li id="TMBtnA"><a href="../execution.html">施工例</a></li>-->
+					<li id="TMBtnA"><a href="process.html">業務プロセス</a></li>
+					<li id="TMBtnB"><a href="manage_sys.html">施工管理システム</a></li>
+					<li id="TMBtnC"><a href="quality.html">配合管理・品質検査</a></li>
+					<li id="TMBtnD"><a href="company.html">会社案内</a></li>
+				</ul><br class="ClearBox" />
+			</div>
+<!---->
+			<div id="ConBox">
+<div id="TopPage">
+			<!--<p>愛知県岡崎市に本社を置く弊社愛知ベース工業株式会社は、パネル操作による管理が可能な地盤改良の機械・沈下修正工事など最先端の技術でお客様の大事な土地の地盤環境調査、地質調査、地盤補強、地盤改良、鋼管杭工事などを行っております。また、圧密沈下による建物の歪みを基礎から修正する沈下修正も手掛けており、お客様の様々なニーズに対応致しております。<br />
+					  私共愛知ベース工業の各サービスは、土地という貴重な財産を有効に活用して、よりよい環境を次世代へと引き継ぎ、大地を永遠に有効利用し活かしていくことを理念にしています。</p>-->
+			<!--<div id="WLock"><a href="w_lock.html">協会推奨 全国Ｎｏ.1 業界初! 地盤2沈下修正の新工法 ダブルロック工法</a></div>-->
+			<div id="topics"><p><img src="img/saikin.png" width="504" alt="最近の出来事" class="ipad" /></p>
+            <div class="topics1">
+            <div class="work-text">
+           <p>地盤の調査から検査、設計、改良施工まですべて当社で行います。<br /><br />
+              調査方式や施工方法も各種取り揃えております。<br /><br />
+              また軟弱上の安定処理、ヘドロの処理、下水汚泥の処理等を目的として特別に開発されたセメント系地盤改良材を使用するなど、環境保全にも取り組んでいます</p>
+           </div>
+            <p class="wark"><img src="img/work.png" width="280px" alt="当社の仕事" /></p>
+            <p id="Photo"><video controls="controls" src="img/intro.mp4" width="280px" muted autoplay></video></p>
+			
+            </div>
+            <div class="topics1">
+            <p>当社ならφ2000mmまで施行可能です！<br />(ウルトラコラム工法)
+            <br /></p>
+            <p class="2000"><video controls="controls" margin="6px" src="img/2000mm2.mp4" width="460px" poster="img/2000mm.jpg" muted></video>
+            <!--<img src="img/2000mm.png" alt="2000mm"/>--></p>
+            </div>
+             <div class="topics1">
+            <p>不動産業務も扱います<br />店舗ハウスドゥ金山に近日オープン予定！</p>
+            <br />
+            <p><img src="img/housedo.jpg" width="300" alt="ハウスドゥ" /></p>
+            </div>
+            <div class="topics1">
+            <p>長久手に2017年オープン予定の大型物販施設の案件に向けて取り組んでいます！(2016年4月現在)</p>
+            <br />
+            <p><img src="img/yotei3.png" width="300" alt="予定施設" /></p>
+            </div>
+            <div class="topics1">
+            <p>太陽光パネル用の造成、架台の取り付なども行っております。</p><br />
+            <p><img src="img/sinshiro1.jpg" alt="太陽光パネル" width="240px"/> <img src="img/sinshiro5.jpg" width="230" height="178" alt="取り付け" /></p>
+            </div>
+            
+            </div>
+         
+            <ul id="Banner">
+		
+                <li><div class="ultra"><a href="ultra.html"><img src="img/ultracoram.png" alt="ウルトラコラム工法" /></a></div>
+                    <div class="rising"><a href="rising_method.html"><img src="img/rising.png" alt="ライジング工法" /></a></div></li>
+                <li><img src="img/ultra-text.png" alt="ウルトラコラム工法"  />
+                    <img src="img/rising-text.png" alt="ライジング工法" /></li>
+                <li><div class="chosa"><a href="groundsurvey.html"><img src="img/chosa.png" alt="調査" /></a></div>
+                    <div class="sekkei"><a href="design_calc.html"><img src="img/sekkei.png" alt="設計" /></a></div></li>
+                <li><img src="img/chosa-text.png" alt="調査" />
+                    <img src="img/sekkei-text.png" alt="設計" /></li>
+
+               
+		    </ul>
+            
+
+			<div id="PLMBtn">
+            <br />
+            
+				<!-- <div id="PLMBtnL"><p><object style="height: 159px; width: 256px"><param name="movie" value="http://www.youtube.com/v/8OGxR1Y0hLE?version=3&feature=player_detailpage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/8OGxR1Y0hLE?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="256" height="159"></object></p><a href="http://youtu.be/8OGxR1Y0hLE" target="_blank"><strong>弊社がTVで紹介されました！大きい画面で見るにはこちらから。</strong></a></div> -->
+				<div id="PLMBtnR">
+					<ul>
+						<li id="PLMBtn01"><a href="contact.html">お問い合わせ・見積もり依頼</a></li>
+                        <li id="mitumori"><a href="request.html">地盤調査依頼</a></li>
+						<!--<li id="PLMBtn02"><a href="#" target="_blank">ブログ</a></li>-->
+				    </ul>
+			    </div>
+		    </div>
+			<div id="WhatsNew">
+				<h2><img src="img/top/whats.gif" alt="更新情報" width="57" height="14" /></h2>
+				<ul>
+                	<li><strong><span>NEW</span>　2016.4.23&nbsp;</strong>トップページリニューアル、最近の出来事・TOPICSを追加しました。
+                    <li><strong>2016.02.03&nbsp;</strong><a href="company.html">会社案内</a>ページを更新しました。</li>
+					<li><strong>2015.04.16&nbsp;</strong>東京営業所が移転に伴い<a href="company.html">会社案内</a>ページを更新しました。</li>
+					<li><strong>2014.08.07&nbsp;</strong><a href="rising_method.html">ライジング工法</a>、<a href="tecot_pile.html">テコットパイル</a>、<a href="ultra_pile.html">ウルトラパイル</a>、<a href="next_pile.html">ネクストパイル</a>の各ページを追加しました。</li>
+					<li><strong>&nbsp;2013.08.19&nbsp;</strong>日本最大の経営者ウェブTV「愛知の社長TV」で紹介されました。<p><a href="http://aichi-president.net/aichi-base" target="_blank">&gt;&gt;掲載ページへ</a></p></li>
+					<li><strong>2013.01.11&nbsp;</strong>会社案内ページを更新しました。<p><a href="company.html">&gt;&gt;掲載ページへ</a></p></li>
+					<li><strong>2012.05.08&nbsp;</strong>弊社がテレビで紹介されました。<br />動画をYouTubeにて配信中！<p><a href="http://youtu.be/8OGxR1Y0hLE" target="_blank">&gt;&gt;掲載ページへ</a></p></li>
+					<li><strong>2012.02.01&nbsp;</strong>グラウトアップ工法の実績の一部をアップしました。</li>
+					<li><strong>2011.07.01&nbsp;</strong>グラウト・アップ工法ページに<br />「太平洋マテリアル 超微粒子・普通セメントとの比較」動画を追加しました。<p><a href="grout_up.html">&gt;&gt;掲載ページへ</a></p></li>
+					<li><strong>2011.06.10&nbsp;</strong>エコステージ1　1年更新しました。<br />グラウト・アップ工法ページを追加しました。<p><a href="grout_up.html">&gt;&gt;掲載ページへ</a></p></li>
+					<li><strong>2011.05.31&nbsp;</strong>グラウト・アップ工法がテレビで紹介されました。<br />ご必要な方はＤＶＤをお送りいたします。</li>
+					<li><strong>2009.12.16&nbsp;</strong>住宅基礎工事ページを追加しました。</li>
+					<li><strong>2009.05.28&nbsp;</strong>リニューアルOPEN！</li>
+					<li><strong>2007.02.20&nbsp;</strong>建物沈下修正工事ページを追加しました。</li>
+					<li><strong>2007.01.22&nbsp;</strong>土壌汚染調査・浄化ページを追加しました。</li>
+					<li><strong>2007.01.22&nbsp;</strong>会社案内ページの東京営業所を追加しました。</li>
+					<li><strong>2006.08.10&nbsp;</strong>リニューアルOPEN！</li>
+			    </li></ul>
+		    </div>
+			<!--<ul id="PageLink">
+						<li id="PLBtnA"><a href="soil.html">土壌汚染・浄化</a></li>
+						<li id="PLBtnB"><a href="recruit.html">求人募集</a></li>
+						<li id="PLBtnC"><a href="img/rum_sound_ex/movie01.wmv">業務案内</a></li>
+					</ul>--><br class="ClearBox" />
+		  </div>
+			  <div id="FootBox">
+  <!--					<ul>
+						<li>|&nbsp;<a href="../survey.html">測量</a>&nbsp;|</li>
+						<li><a href="../groundsurvey.html">地盤調査</a>&nbsp;|</li>
+						<li><a href="../rum_sound_ex.html">ラムサウンディング試験</a>&nbsp;|</li>
+						<li><a href="../various_ex.html">各種施工</a>&nbsp;|</li>
+						<li><a href="../soil.html">土壌汚染調査・浄化</a>&nbsp;|</li>
+						<li><a href="../design_calc.html">設計計算業務</a>&nbsp;|</li>
+					</ul>-->
+				  <ul>
+						<!--<li>|&nbsp;<a href="../subsidence.html">建物沈下修正工事</a>&nbsp;|</li>-->
+						<!--<li>|&nbsp;<a href="../execution.html">施工例</a>&nbsp;|</li>-->
+						<li>|&nbsp;<a href="process.html">業務プロセス</a>&nbsp;|</li>
+						<li><a href="manage_sys.html">施工管理システム</a>&nbsp;|</li>
+						<li><a href="quality.html">配合管理・品質管理</a>&nbsp;|</li>
+						<li><a href="link.html">ＬＩＮＫ</a>&nbsp;|</li>
+					</ul>
+					<ul>
+						<li>|&nbsp;<a href="company.html">会社案内</a>&nbsp;|</li>
+						<li><a href="request.html">地盤調査依頼</a>&nbsp;|</li>
+						<li><a href="recruit.html">求人募集</a>&nbsp;|</li>
+						<li><a href="contact.html">お問い合わせ</a>&nbsp;|</li>
+						<li><a href="sitemap.html">サイトマップ</a>&nbsp;|</li>
+						<li><a href="privacy.html">個人情報の取扱いについて</a>&nbsp;|</li>
+					</ul>
+					<p></p>
+					<address>
+						Copyright &copy; <script type="text/javascript">var startYear = 2008;thisDate = new Date();thisYear = thisDate.getFullYear();if(startYear!=thisYear){document.write(startYear+"-"+thisYear);}else{document.write(startYear);}</script>
+						aichi-base. All Rights Reserved.</address>
+				</div>
+			</div>
+			  <div id="SideMenu">
+				<div id="SideMSub">
+				  <div id="SideMain">
+						<h2 id="SMBtnA"><a href="survey.html">■測量</a></h2>
+						<h2 id="SMBtnB"><a href="groundsurvey.html">■地盤調査</a></h2>						
+						<h3 id="SSMBtnA"><a href="sweden.html">●スウェーデン式 サウンディング試験</a></h3>
+						<h3 id="SSMBtnB"><a href="rum_sound_ex.html">●ラムサウンディング試験</a></h3>
+						<h3 id="SSMBtnC"><a href="normal.html">●標準貫入試験</a></h3>
+						<p class="Line"></p>
+						<h2 id="SMBtnC"><a href="various_ex.html">■各種施工</a></h2>
+						<h3 id="SSMBtnD"><a href="wet_type.html"></a></h3>
+						<p id="SSSMBtnA"><img src="img/sssmbtna.png" alt="・湿式柱状改良" /></p>
+						<h3 id="SSMBtnE"><a href="ultra.html">● ウルトラコラム工法</a></h3>
+						<h3 id="SSMBtnF"><a href="surface.html">● 表層地盤改良工法</a></h3>
+						<h3 id="SSMBtnG"><a href="steel.html">● 鋼管杭工法</a></h3>
+						<p class="Line"></p>
+						<h2 id="SMBtnD"><a href="design_calc.html">■設計計算業務</a></h2>
+						<h2 id="SMBtnE"><a href="subsidence.html">■建物沈下修正工事</a></h2>
+					<!--<h3 id="SSMBtnE"><a href="../subsidence.html#method01">● 鋼管杭圧入工法</a></h3>
+						<h3 id="SSMBtnF"><a href="../subsidence.html#method02">● 鋼管杭打設工法</a></h3>
+						<h3 id="SSMBtnG"><a href="../subsidence.html#method03">● 薬液注入工法</a></h3>-->
+						<h2 id="SMBtnF"><a href="soil.html">■土壌汚染調査・浄化</a></h2>
+						<!--<h2 id="BasicBtnB"><a href="../w_lock.html">ダブルロック工法</a></h2>
+						<h2 id="BasicBtnB"><a href="../grout_up.html">グラウト・アップ工法</a></h2>-->
+                          <br />
+                      <h2 id="down"><a href="partner/partner/partner.html">パートナー様ページ</a></h2>
+<!--<h2 id="RisingBtn"><a href="rising_method.html">ライジング工法</a></h2><-->
+						<h2 id="PileBtnA"><a href="tecot_pile.html">TECOT PILE</a></h2>
+						<h2 id="PileBtnB"><a href="ultra_pile.html">ULTRA PILE</a></h2>
+						<h2 id="PileBtnC"><a href="next_pile.html">NEXT PILE</a></h2>
+<!--					<h2 id="BasicBtnA"><a href="basic.html">住宅基礎工事</a></h2>
+-->
+
+                      <h2 id="jhs"><a href="https://www.j-shield.co.jp/index.htm">ジャパンホームシールド</a></h2>
+                      
+					</div>
+				</div>
+				<div id="SideCom">
+					<h2>愛知ベース工業株式会社</h2>
+					<dl>
+						<dt>本社：</dt>
+						<dd>〒444-3523<br />愛知県岡崎市藤川町<br />字北荒古15番1<br />TEL:0564-59-2338<br />FAX:0564-59-2358<br /><a href="mailto:&#97;&#105;&#99;&#104;&#105;&#64;&#97;&#105;&#99;&#104;&#105;&#45;&#98;&#97;&#115;&#101;&#46;&#99;&#111;&#46;&#106;&#112;">&#97;&#105;&#99;&#104;&#105;&#64;&#97;&#105;&#99;&#104;&#105;&#45;&#98;&#97;&#115;&#101;&#46;&#99;&#111;&#46;&#106;&#112;</a></dd>
+						
+						<dt>名古屋営業所：</dt>
+						<dd>〒450-0002<br />愛知県名古屋市中村区名駅<br />2-35-22 メビウス名古屋ビル3F<br />
+							TEL:052-485-8381<br />FAX:052-485-8387</dd>
+					</dl>
+					<p class="ImgIll"><img src="img/environment_p.jpg" alt="環境省指定調査機関 環2006-4-4" width="158" height="54" /></p>
+				</div>
+				<div id="RecBtn"><a href="recruit.html">求人情報</a></div>
+				<div id="ConBtn"><a href="contact.html">お問い合わせ</a></div>
+			</div>
+			<br class="ClearBox" />
+		</div>
+	</div>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77524135-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
