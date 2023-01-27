@@ -311,9 +311,9 @@ div.child2 p{
 	color:#FFF;
 }
 /*h2タグ内のspanタグ*/
-#contents h2 span {
-	font-size: 80%;	/*文字サイズ*/
-	padding-left: 20px	/*左に空ける余白*/
+#contents h5 span {
+	font-size: 60%;	/*文字サイズ*/
+	padding-left: 5px;	/*左に空ける余白*/
 }
 /*h2タグ内のspanタグの文字の最初と最後に表示させる記号*/
 #contents h2 span::before,#contents h2 span::after {
@@ -2026,3 +2026,10 @@ h7 span{width:auto;padding-right:10px;color:#fff;text-align:center;}
 .marginbottom {
 	margin-bottom:1%;
 }
+
+.news {
+	width: auto;                /* 横幅を200pxに指定 */
+  height: 550px;               /* 横幅を200pxに指定 */
+ -webkit-overflow-scrolling:auto;overflow:auto;
+}
+
