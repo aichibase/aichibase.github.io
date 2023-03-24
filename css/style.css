@@ -494,6 +494,8 @@ div.child2 p{
 	float: left;	/*左に回り込み*/
 	width: 30%;		/*画像の幅*/
 	margin-left: 1%;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
 }
 #contents .list3 figure {
 	float: left;	/*左に回り込み*/
@@ -530,7 +532,7 @@ div.child2 p{
 #contents .list11 figure {
 	float: left;	/*左に回り込み*/
 	width: 100%;
-	margin-right: 1%;/*画像の幅*/	
+	margin: 1%;/*画像の幅*/	
 }
 
 /*「class="text"」を指定したブロック。テキストブロック。*/
