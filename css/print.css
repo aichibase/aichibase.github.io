@@ -52,25 +52,19 @@
         zoom: 1.8;
         width: 100%;
 
-    }
-	#mainimg2{
-	clear: left;
-
-	width: 1200px;
-	height: 500px;	/*スライドショーの高さ*/
-}
+ 
 }
 
 @media print{
     .no_print{
         display: none;
-    }
-		#mainimg2{
-	clear: left;
-
-	width: 1200px;
-	height: 500px;	/*スライドショーの高さ*/
-}
+    
+	}
+	#mainimage{
+		
+		wideth:100%;
+	
+	}
 }
 
     /*firefox frexbox繝舌げ隗｣豸�*/
