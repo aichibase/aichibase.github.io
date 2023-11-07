@@ -1,6 +1,6 @@
 @media print {
   @page {
-    margin: 17.05mm;
+    margin: 15.05mm;
   }
   html{
     height: auto;
