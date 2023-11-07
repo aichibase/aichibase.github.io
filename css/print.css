@@ -1,6 +1,6 @@
 @media print {
   @page {
-    margin: 19.05mm;
+    margin: 17.05mm;
   }
   html{
     height: auto;
@@ -45,7 +45,7 @@
 @media print and (-ms-high-contrast: none) {
     @page {
         size: A4;
-        margin: 12.7mm 9.7mm;
+        margin: 12.7mm 7.7mm;
     }
 
     body {
