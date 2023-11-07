@@ -1,18 +1,18 @@
 @media print {
   @page {
-    margin: 17.05mm;
+    margin: 19.05mm;
   }
   html{
     height: auto;
-    font-size: 12px;
+    font-size: 14px;
     overflow: visible !important;
     -webkit-print-color-adjust: exact;
   }
   body{
-    width: 100%;
+    width: 1200px;
     height: auto;
     padding-top: 0;
-    zoom: 0.6;
+    zoom: 0.5;
     overflow: visible !important;
     overflow-x: hidden;
   }
@@ -30,7 +30,7 @@
 
   /*top slider*/
   .topPage .mainVisual{
-    width: 100%;
+    width: 1200px;
   }
 
   /*top btmBnr*/
@@ -45,13 +45,14 @@
 @media print and (-ms-high-contrast: none) {
     @page {
         size: A4;
-        margin: 12.7mm 7.7mm;
+        margin: 12.7mm 9.7mm;
     }
 
     body {
         zoom: 1.8;
-        width: 100%;
-
+        width: 1200px;
+        transform: scale(0.5);
+        transform-origin: 0 0;
  
 }
 
